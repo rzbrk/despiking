@@ -1,0 +1,27 @@
+[18:06] To invite someone to the meeting, send them this link: https://bbb.daten.reisen/b/jon-mqr-zwu
+[18:59] Jonas: https://en.wikipedia.org/wiki/Kalman_filter
+[19:00] Michael: Hi, Michael ist mal wieder hier
+[19:03] Jonas: Karl, wenn Dein Sound nicht geht, kannst Du Tel. probieren  02174-7189605
+[19:05] Jan: https://github.com/rzbrk/despiking
+[19:05] Jan: git clone https://github.com/rzbrk/despiking
+[19:06] Jonas: Python 3.9.7
+[19:06] Jonas: python --version
+[19:07] Jonas: pip --version
+pip 21.2.4 from /usr/lib/python3.9/site-packages/pip (python 3.9)
+[19:07] Jonas: python3.10 --version
+Python 3.10.0rc1
+[19:10] Jonas: pip install --user pipenv
+[19:12] Jonas: pip3 install --user pipenv
+[19:20] Michael: export PATH=/home/opc/.local/bin:$PATH
+[19:22] Jonas: bin bereit
+[19:32] Jonas: jupyter
+[19:49] Jonas: type(data_all['norad'])
+[20:56] Jonas: https://numpy.org/doc/stable/reference/routines.fft.html
+[21:00] Jonas: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.interpolate.html#pandas.DataFrame.interpolate
+[21:07] Jonas: obj = obj.interpolate(method='pad')
+[21:25] Jonas: # Linear interpolation on column "alt_derivfilt" and substitute NaN
+obj["alt_derivfilt"].interpolate(method='linear', limit_direction='forward', inplace=True)
+[21:29] Jonas: https://pandas.pydata.org/pandas-docs/dev/reference/api/pandas.DataFrame.resample.html
+[21:45] _karl__: Ciao!
+[21:54] Jan: https://stackoverflow.com/a/48641912
+[21:57] Michael: Bin jetzt auch raus. Euch noch einen schönen Abend! Tschüß!
